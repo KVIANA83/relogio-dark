@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+*{
+  font-family: 'Poor Story', system-ui;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+ /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relogio{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 125px;
+  width: 550px;
+  background: transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 139, 1);
+}
+
+.relogio span{
+  font-weight: bolder;
+  font-size: 60px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 139, 1);
+  padding: 12px;
+}
+
+.horas, .minutos, .segundos{
+  font-size: 50px;
+  text-align: center;
+  color: #00008b;
+}
+
+/* Botão */
+button{
+  position: absolute;
+  bottom: 20px;
+  width: 15%;
+  padding: 10px;
+  border-radius: 15px;
+  background: transparent;
+  border: 1px solid transparent;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 139, 1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Tema Claro */
+.light-theme {
+    background-color: #fff;
+    color: #000000;
+}
+
+/* Tema Escuro */
+.dark-theme {
+    background-color: #000;
+    color: #ffffff;
+}
